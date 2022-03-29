@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FATCA_OECD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:iso="urn:oecd:ties:isofatcatypes:v1" xmlns:ftc="urn:oecd:ties:fatca:v2" xmlns:stf="urn:oecd:ties:stf:v4" xmlns:sfa="urn:oecd:ties:stffatcatypes:v2" xsi:schemaLocation="urn:oecd:ties:fatca:v2 FatcaXML_v2.0.xsd" version="2.0" xmlns="urn:oecd:ties:fatca:v2">
+  <ftc:MessageSpec>
+    <sfa:SendingCompanyIN />
+    <sfa:TransmittingCountry>NG</sfa:TransmittingCountry>
+    <sfa:ReceivingCountry>US</sfa:ReceivingCountry>
+    <sfa:MessageType>FATCA</sfa:MessageType>
+    <sfa:MessageRefId>421-89-4528-20201207T125844</sfa:MessageRefId>
+    <sfa:ReportingPeriod>2020-12-31</sfa:ReportingPeriod>
+    <sfa:Timestamp>2020-12-07T12:58:44</sfa:Timestamp>
+  </ftc:MessageSpec>
+  <ftc:FATCA>
+    <ftc:ReportingFI>
+      <sfa:ResCountryCode>NG</sfa:ResCountryCode>
+      <sfa:TIN>421-89-4528</sfa:TIN>
+      <sfa:Name>Access Bank PLC</sfa:Name>
+      <sfa:Address>
+        <sfa:CountryCode>US</sfa:CountryCode>
+        <sfa:AddressFix>
+          <sfa:Street>DANMOLE STREET</sfa:Street>
+          <sfa:BuildingIdentifier>PLOT 999C</sfa:BuildingIdentifier>
+          <sfa:SuiteIdentifier>N/A</sfa:SuiteIdentifier>
+          <sfa:FloorIdentifier>N/A</sfa:FloorIdentifier>
+          <sfa:DistrictName>VICTORIA ISLAND</sfa:DistrictName>
+          <sfa:POB>P.M.B 80150</sfa:POB>
+          <sfa:PostCode>N/A</sfa:PostCode>
+          <sfa:City>LAGOS</sfa:City>
+          <sfa:CountrySubentity>NIGERIA</sfa:CountrySubentity>
+        </sfa:AddressFix>
+      </sfa:Address>
+      <ftc:FilerCategory>FATCA601</ftc:FilerCategory>
+      <ftc:DocSpec>
+        <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+        <ftc:DocRefId>ZGJY42.00000.LE.566.FI20200521T132537004003</ftc:DocRefId>
+      </ftc:DocSpec>
+    </ftc:ReportingFI>
+    <ftc:ReportingGroup>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>ZGJY42.00000.LE.566.AR-9244547-20200521T132537</ftc:DocRefId>
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0803852376</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:TIN>421-89-4528</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>WILSON</sfa:FirstName>
+              <sfa:MiddleName>ONYEDIKACHI</sfa:MiddleName>
+              <sfa:LastName>AGOMUO</sfa:LastName>
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>WELLS BRANCH PKWY</sfa:Street>
+                <sfa:BuildingIdentifier>7600 </sfa:BuildingIdentifier>
+                <sfa:SuiteIdentifier>3300</sfa:SuiteIdentifier>
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>78728</sfa:PostCode>
+                <sfa:City>TEXAS </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1980-06-10</sfa:BirthDate>
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="NGN">24459489</ftc:AccountBalance>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>ZGJY42.00000.LE.566.AR-9244547-20200521T132537</ftc:DocRefId>
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0789188335</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:TIN>113-43-7282</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>OGHENERO</sfa:FirstName>
+              <sfa:MiddleName>HENRY</sfa:MiddleName>
+              <sfa:LastName>OGAGA</sfa:LastName>
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>GARDEN WALK BLVD</sfa:Street>
+                <sfa:BuildingIdentifier>1034</sfa:BuildingIdentifier>
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>30349</sfa:PostCode>
+                <sfa:City>ATLANTA</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1986-06-09</sfa:BirthDate>
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="NGN">39118854</ftc:AccountBalance>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>ZGJY42.00000.LE.566.AR-9244547-20200521T132537</ftc:DocRefId>
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0001946853</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:TIN>220-11-6883</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>IWEANOGE</sfa:FirstName>
+              <sfa:MiddleName>JOHN</sfa:MiddleName>
+              <sfa:LastName>OBIORA</sfa:LastName>
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>7TH STREET NE</sfa:Street>
+                <sfa:BuildingIdentifier>4401</sfa:BuildingIdentifier>
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>20017</sfa:PostCode>
+                <sfa:City>WASHINGTON DC</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1963-05-20</sfa:BirthDate>
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="USD">55019</ftc:AccountBalance>
+      </ftc:AccountReport>
+      <ftc:PoolReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>421-89-4528-PR-20201207000000</ftc:DocRefId>
+        </ftc:DocSpec>
+        <ftc:AccountCount>3</ftc:AccountCount>
+        <ftc:AccountPoolReportType>FATCA201</ftc:AccountPoolReportType>
+        <ftc:PoolBalance currCode="NGN">63633362</ftc:PoolBalance>
+      </ftc:PoolReport>
+    </ftc:ReportingGroup>
+  </ftc:FATCA>
+</FATCA_OECD>

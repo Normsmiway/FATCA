@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#FATCA"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>+R1+F7NTj6vFqLw0EgRB/Uo2VGPqFRVNE+a8bH6j/Os=</DigestValue></Reference></SignedInfo><SignatureValue>N3YZuciE5AvjtrbdCpbsX3Q5LM5g/MUptm8dFaxgu58/5rVph5qJck/RTAZbFz2YeDD9V105HZUY38pzc+Gqgb7+MjHfvLYvZFJHJd0f+2SITEIA4+r81KLHv5zwSKK9QUM23xqN6OAV9wDtVBZADKM6LzzyzBElkwIpCZpJbXbdnnsa0KgJ6D0Seb2WhaP8AWHO5kwXaP/YApRGsbzFnSP/ADYrdlHwiu9yGiBmX6NTfg3H8JcFaPCw8taY77phxjwl702RnrcN/aGF8Oc3JFSAJ+mZT1GU3y59fWIhxm9F+SkTXbw1WwNC42GOIOSZ3/vAc/5rFjBITo069bpSKA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=sender, OU=sender, O=sender, L=sender, S=XX, C=US, E=sender@sender.com</X509SubjectName><X509Certificate>MIIDfjCCAmagAwIBAgIEVNugljANBgkqhkiG9w0BAQsFADCBgDEgMB4GCSqGSIb3DQEJARYRc2VuZGVyQHNlbmRlci5jb20xCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJYWDEPMA0GA1UEBwwGc2VuZGVyMQ8wDQYDVQQKDAZzZW5kZXIxDzANBgNVBAsMBnNlbmRlcjEPMA0GA1UEAwwGc2VuZGVyMB4XDTE1MDIxMTE4MzQzMloXDTE4MDIxMTE4MzQzMlowgYAxIDAeBgkqhkiG9w0BCQEWEXNlbmRlckBzZW5kZXIuY29tMQswCQYDVQQGEwJVUzELMAkGA1UECAwCWFgxDzANBgNVBAcMBnNlbmRlcjEPMA0GA1UECgwGc2VuZGVyMQ8wDQYDVQQLDAZzZW5kZXIxDzANBgNVBAMMBnNlbmRlcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKLvTv8Bus3lxSLCZRXkTUfy45usk7Uwj2aPevPlOP3Na7oy2NyD5DJSB3E5fw3J0HTc7v3oNWM5mJEU80SPFe9b18nzW8yYET4xmheH1iCGWwG4y9/g5RFXxlsHMUwZafifw+pCxvb4C8oCXm3i1gBoGUm9sggJrwscrwJLisk4fxSff2e+Ysga4A/2v37Pa4QeXTUy0UglVBRzu90JVTredKlPyq6LiVyNfe+fO6yVpg8tiG4H5KPL7E7KAdbfhTAEEjYdlTnu6HBKIUvaFZbdiHfcfxbtko9Gi/KPHSMgKdzBlm8q/9LWLrpWXJDXUO8tJ1lNLqjiLFU6iun+rrMCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAWlY8XPODLaAfy8P+FDa9kyAjv9+quvAtSsHZGRNKzfEmF6QJZHKDJ1gMa+Lle7setVscBSq+qB2mR6S4fcyG67d+lTIw4tUFCJXCQomvCfg33PRSLnT36VQSXGidvZL2JYasbcuXrwhBlFzAY4ynFwROQtUFDcHF++E/pcfHYKzsqeqn/MweIk/w4RAztrCH+kJTIH3CDRk0Y43s3hXiOLdYR3dntpFolLQht3qbxmguanwJVl0tDS+Cmn8lPgm66tW0oNvVdwzbdjmhpLiIVqJr3wb62z/7EpgKhk77nQe0j0i1bEJCZgT2cAjTxBrL+XE9wyjunlEzDx4zsCYZUQ==</X509Certificate></X509Data></KeyInfo><Object Id="FATCA"><FATCA_OECD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:iso="urn:oecd:ties:isofatcatypes:v1" xmlns:ftc="urn:oecd:ties:fatca:v2" xmlns:stf="urn:oecd:ties:stf:v4" xmlns:sfa="urn:oecd:ties:stffatcatypes:v2" xsi:schemaLocation="urn:oecd:ties:fatca:v2 FatcaXML_v2.0.xsd" version="2.0" xmlns="urn:oecd:ties:fatca:v2">
+  <ftc:MessageSpec>
+    <sfa:SendingCompanyIN>G5ME2G.00093.ME.999</sfa:SendingCompanyIN>
+    <sfa:TransmittingCountry>NG</sfa:TransmittingCountry>
+    <sfa:ReceivingCountry>US</sfa:ReceivingCountry>
+    <sfa:MessageType>FATCA</sfa:MessageType>
+    <sfa:MessageRefId>ZGJY42.00000.LE.566-20200521T132537</sfa:MessageRefId>
+    <sfa:ReportingPeriod>2019-12-31</sfa:ReportingPeriod>
+    <sfa:Timestamp>2020-11-01T18:22:07</sfa:Timestamp>
+  </ftc:MessageSpec>
+  <ftc:FATCA>
+    <ftc:ReportingFI>
+      <sfa:ResCountryCode>NG</sfa:ResCountryCode>
+      <sfa:TIN>ZGJY42.00000.LE.566</sfa:TIN>
+      <sfa:Name>Access Bank Plc</sfa:Name>
+      <sfa:Address>
+        <sfa:CountryCode>NG</sfa:CountryCode>
+        <sfa:AddressFix>
+          <sfa:Street>DANMOLE STREET</sfa:Street>
+          <sfa:BuildingIdentifier>PLOT 999C</sfa:BuildingIdentifier>
+          <sfa:SuiteIdentifier>N/A</sfa:SuiteIdentifier>
+          <sfa:FloorIdentifier>N/A</sfa:FloorIdentifier>
+          <sfa:DistrictName>VICTORIA ISLAND</sfa:DistrictName>
+          <sfa:POB>P.M.B 80150</sfa:POB>
+          <sfa:PostCode>N/A</sfa:PostCode>
+          <sfa:City>LAGOS</sfa:City>
+          <sfa:CountrySubentity>NIGERIA</sfa:CountrySubentity>
+        </sfa:AddressFix>
+      </sfa:Address>
+      <ftc:FilerCategory>FATCA601</ftc:FilerCategory>
+      <ftc:DocSpec>
+        <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+        <ftc:DocRefId>ZGJY42.00000.LE.566.FI20200521T132537004003</ftc:DocRefId>
+      </ftc:DocSpec>
+    </ftc:ReportingFI>
+    <ftc:ReportingGroup>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>ZGJY42.00000.LE.566.AR-9244547-20200521T132537</ftc:DocRefId>
+        </ftc:DocSpec>
+        <ftc:AccountNumber>803852376</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:TIN>421-89-4528</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>WILSON</sfa:FirstName>
+              <sfa:MiddleName>ONYEDIKACHI</sfa:MiddleName>
+              <sfa:LastName>AGOMUO</sfa:LastName>
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>WELLS BRANCH PKWY</sfa:Street>
+                <sfa:BuildingIdentifier>7600</sfa:BuildingIdentifier>
+                <sfa:SuiteIdentifier>3300</sfa:SuiteIdentifier>
+                <sfa:PostCode>78728</sfa:PostCode>
+                <sfa:City>TEXAS</sfa:City>
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1980-06-10</sfa:BirthDate>
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="NGN">24459488.68</ftc:AccountBalance>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA2</ftc:DocTypeIndic>
+          <ftc:DocRefId>ZGJY42.00000.LE.566.AR-9244547-20200521T132537</ftc:DocRefId>
+        </ftc:DocSpec>
+        <ftc:AccountNumber>903852376</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:TIN>421-89-4528</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>WILSON2</sfa:FirstName>
+              <sfa:MiddleName>ONYEDIKACHI2</sfa:MiddleName>
+              <sfa:LastName>AGOMUO2</sfa:LastName>
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>AU</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>WELLS BRANCH PKWY 2</sfa:Street>
+                <sfa:BuildingIdentifier>7600</sfa:BuildingIdentifier>
+                <sfa:SuiteIdentifier>3300</sfa:SuiteIdentifier>
+                <sfa:PostCode>78728</sfa:PostCode>
+                <sfa:City>TEXAS</sfa:City>
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1980-06-10</sfa:BirthDate>
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="NGN">10000000.68</ftc:AccountBalance>
+      </ftc:AccountReport>
+      <ftc:PoolReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>eb0cf66f-acf2-457a-a6a3-455c236d92f3</ftc:DocRefId>
+        </ftc:DocSpec>
+        <ftc:AccountCount>2</ftc:AccountCount>
+        <ftc:AccountPoolReportType>FATCA201</ftc:AccountPoolReportType>
+        <ftc:PoolBalance currCode="NGN">34459489.36</ftc:PoolBalance>
+      </ftc:PoolReport>
+    </ftc:ReportingGroup>
+  </ftc:FATCA>
+</FATCA_OECD></Object></Signature>

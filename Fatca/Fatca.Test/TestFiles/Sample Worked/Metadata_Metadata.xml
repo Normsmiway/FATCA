@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FATCAIDESSenderFileMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:fatca:idessenderfilemetadata">
+	<FATCAEntitySenderId>Metadata</FATCAEntitySenderId>
+	<FATCAEntityReceiverId>000000.00000.TA.840</FATCAEntityReceiverId>
+	<FATCAEntCommunicationTypeCd>RPT</FATCAEntCommunicationTypeCd>
+	<SenderFileId>20201207T093817942Z_Metadata</SenderFileId>
+	<FileFormatCd>XML</FileFormatCd>
+	<BinaryEncodingSchemeCd>NONE</BinaryEncodingSchemeCd>
+	<FileCreateTs>2020-12-07T10:38:17Z</FileCreateTs>
+	<TaxYear>2020</TaxYear>
+	<FileRevisionInd>false</FileRevisionInd>
+</FATCAIDESSenderFileMetadata>
